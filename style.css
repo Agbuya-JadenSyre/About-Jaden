@@ -1,0 +1,85 @@
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+      text-align: center;
+    }
+
+    .navbar {
+      background-color: #b9a7d8;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 80px;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: purple;
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    h1 {
+      color: purple;
+      margin-top: 30px;
+      font-size: 40px;
+    }
+
+    h2 {
+      color: purple;
+      margin-top: 40px;
+      font-size: 32px;
+    }
+
+    .profile-img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .intro {
+      max-width: 800px;
+      margin: 20px auto;
+      font-size: 22px;
+      color: purple;
+      font-weight: bold;
+    }
+
+    .hobbies {
+      display: flex;
+      justify-content: center;
+      gap: 100px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+    }
+
+    .hobby {
+      width: 250px;
+    }
+
+    .hobby img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .hobby p {
+      color: purple;
+      font-weight: bold;
+    }
+
+    .footer {
+      margin-top: 50px;
+      background-color: #b9a7d8;
+      padding: 20px;
+      display: flex;
+      justify-content: space-around;
+      font-size: 22px;
+      font-weight: bold;
+      color: purple;
+    }
